@@ -1,0 +1,16 @@
+# CS4013 UL Student Records System
+
+Group project for CS4013 Software Development Project (AY 2026/27).
+
+## Team
+- Person 1: Students, programmes and modules - Pooja
+- Person 2: Grades and QCA - Alfi
+- Person 3: Progression and exam boards - Aisha
+- Person 4: CSV storage, CLI and transcripts - Stephanie
+
+## How to run
+1. Keep all .csv files in the same folder as the program.
+2. Compile: javac *.java
+3. Run: java Main
+
+Requires Java 17 or later.
