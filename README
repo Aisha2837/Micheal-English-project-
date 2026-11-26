@@ -3,10 +3,10 @@
 Group project for CS4013 Software Development Project (AY 2026/27).
 
 ## Team
-- Person 1: Students, programmes and modules - Pooja
-- Person 2: Grades and QCA - Aisha
-- Person 3: Progression and exam boards - Alfi
-- Person 4: CSV storage, CLI and transcripts - Stephanie
+- Students, programmes and modules - Pooja
+- Grades and QCA - Aisha
+- Progression and exam boards - Alfi
+- CSV storage, CLI and transcripts - Stephanie
 
 ## How to run
 1. Keep all .csv files in the same folder as the program.
