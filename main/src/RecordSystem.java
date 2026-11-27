@@ -8,6 +8,10 @@ public class RecordSystem {
 
 
     // constructor
+    public RecordSystem() {
+        this.students = new HashMap<>();
+        this.modules = new HashMap<>();
+    }
 
 
     // store student
