@@ -15,6 +15,13 @@ public class RecordSystem {
 
 
     // store student
+    public void storeStudent(Student student) {
+        if (students.containsKey(student.getStudentID())) {
+            System.out.println("Student ID already exists");
+            return;
+        }
+        students.put(student.getStudentID(), student);
+    }
 
 
     // store module
