@@ -25,5 +25,12 @@ public class RecordSystem {
 
 
     // store module
+    public void storeModule(Module module) {
+        if (modules.containsKey(module.getModuleCode())) {
+            System.out.println("Module code already exists");
+            return;
+        }
+        modules.put(module.getModuleCode(), module);
+    }
 
 }

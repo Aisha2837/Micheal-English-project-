@@ -18,12 +18,12 @@ public class Department {
     }
 
     // add new programme
-    public boolean addProgramme(Programme programme) {
+    public void addProgramme(Programme programme) {
         if (programmes.containsKey(programme.getProgrammeID())) {
-            return false;
+            System.out.println("Programme ID already exists");
+            return;
         }
         programmes.put(programme.getProgrammeID(), programme);
-        return true;
     }
 
 
@@ -31,6 +31,7 @@ public class Department {
     public ArrayList<Student> reviewProgression(int programmeID, Collection<Student> allStudents) {
         ArrayList<Student> programmeStudents = new ArrayList<>();
         if (!programmes.containsKey(programmeID)) {
+            System.out.println("Programme ID does not exist");
             return programmeStudents;
         }
         for (Student student : allStudents) {
