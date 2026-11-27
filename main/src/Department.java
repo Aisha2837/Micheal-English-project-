@@ -9,18 +9,20 @@ public class Department {
 
 
     // constructor
-
-
-    // add new student
-
-
-    // add new module
-
+    public Department(int departmentID, String name) {
+        this.departmentID = departmentID;
+        this.name = name;
+        this.programmes = new HashMap<>();
+    }
 
     // add new programme
-
-
-    // hold exam board review
+    public boolean addProgramme(Programme programme) {
+        if (programmes.containsKey(programme.getProgrammeID())) {
+            return false;
+        }
+        programmes.put(programme.getProgrammeID(), programme);
+        return true;
+    }
 
 
     // review student progression
