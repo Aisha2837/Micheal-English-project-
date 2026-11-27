@@ -15,4 +15,19 @@ public class Student {
     private Map<Module, List<String>> attemptedGrades;
 
     private Transcript transcript;
+
+    //Constructor
+    public Student(String name, String studentID, String program, Transcript transcirpt) {
+        this.name = name;
+        this.studentID = studentID;
+        this.program = program;
+
+        this.transcript = transcript;
+
+        this.modules = new ArrayList<>();
+        this.grades = new HashMap<>();
+        this.attemptedGrades = new HashMap<>();
+
+    }
 }
+
