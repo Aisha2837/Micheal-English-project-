@@ -1,6 +1,11 @@
+import java.util.HashMap;
+
 public class Department {
 
     // fields
+    private int departmentID;
+    private String name;
+    private HashMap<Integer, Programme> programmes;
 
 
     // constructor
