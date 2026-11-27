@@ -3,14 +3,10 @@
 Group project for CS4013 Software Development Project (AY 2026/27).
 
 ## Team
-- Students, programmes and modules - Pooja
-- Grades and QCA - Aisha
-- Progression and exam boards - Alfi
-- CSV storage, CLI and transcripts - Stephanie
+- Student and  program - Aisha
+- Department, RecordSystem - Stephanie
+- Faculty and Module - Alfi
+- Transcript - Pooja
 
-## How to run
-1. Keep all .csv files in the same folder as the program.
-2. Compile: javac *.java
-3. Run: java Main
 
-Requires Java 17 or later.
+
