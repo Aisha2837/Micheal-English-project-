@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Department {
@@ -26,5 +27,17 @@ public class Department {
 
 
     // review student progression
+    public ArrayList<Student> reviewProgression(int programmeID, ArrayList<Student> allStudents) {
+        ArrayList<Student> programmeStudents = new ArrayList<>();
+        if (!programmes.containsKey(programmeID)) {
+            return programmeStudents;
+        }
+        for (Student student : allStudents) {
+            if (student.getProgrammeID() == programmeID) {
+                programmeStudents.add(student);
+            }
+        }
+        return programmeStudents;
+    }
 
 }
